@@ -5,7 +5,7 @@ public class Main {
         Playable carl = new MusicPlayer();
         Playable bob = new VideoPlayer();
         MediaController.playMedia(bob);
-        //carl.play();
+        MediaController.playMedia(carl);
 
     }
 }
